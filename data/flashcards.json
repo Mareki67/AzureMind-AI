@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence is the ability of software systems to perform tasks that normally require human intelligence, such as understanding language, recognizing images, making predictions, generating content, or making recommendations."
+  },
+  {
+    "id": 2,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is an AI workload?",
+    "answer": "An AI workload is a use case that applies AI capabilities to solve a business or technical problem, such as prediction, vision, language, speech, search, or content generation."
+  },
+  {
+    "id": 3,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is machine learning?",
+    "answer": "Machine learning is an AI approach where models learn patterns from data and use those patterns to make predictions, classifications, recommendations, or decisions."
+  },
+  {
+    "id": 4,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is generative AI?",
+    "answer": "Generative AI creates new content such as text, images, code, summaries, plans, or responses based on patterns learned from training data and user prompts."
+  },
+  {
+    "id": 5,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is a foundation model?",
+    "answer": "A foundation model is a large, general-purpose AI model that can be adapted for many tasks, including language, vision, reasoning, coding, and multimodal scenarios."
+  },
+  {
+    "id": 6,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is an AI model?",
+    "answer": "An AI model is a mathematical or computational representation trained to produce outputs such as predictions, classifications, generated text, or extracted information."
+  },
+  {
+    "id": 7,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is inference?",
+    "answer": "Inference is the process of using a trained model to generate a result from new input data."
+  },
+  {
+    "id": 8,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Beginner",
+    "question": "What is training data?",
+    "answer": "Training data is the data used to teach a machine learning or AI model the patterns it needs to make useful predictions or generate useful outputs."
+  },
+  {
+    "id": 9,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between training and inference?",
+    "answer": "Training builds or adjusts a model using data, while inference uses the trained model to produce outputs from new inputs."
+  },
+  {
+    "id": 10,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Core AI concepts",
+    "difficulty": "Intermediate",
+    "question": "Why is data quality important in AI?",
+    "answer": "Data quality affects model accuracy, fairness, usefulness, and reliability. Poor data can lead to incorrect predictions, biased results, or unreliable outputs."
+  },
+  {
+    "id": 11,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What is responsible AI?",
+    "answer": "Responsible AI is the practice of designing, building, deploying, and managing AI systems in ways that are fair, reliable, safe, private, secure, inclusive, transparent, and accountable."
+  },
+  {
+    "id": 12,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does fairness mean in responsible AI?",
+    "answer": "Fairness means AI systems should avoid creating or reinforcing inappropriate bias and should treat individuals and groups equitably."
+  },
+  {
+    "id": 13,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does reliability and safety mean in responsible AI?",
+    "answer": "Reliability and safety mean AI systems should operate consistently, handle errors appropriately, and minimize the risk of harmful behavior."
+  },
+  {
+    "id": 14,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does privacy and security mean in responsible AI?",
+    "answer": "Privacy and security mean AI systems should protect personal data, sensitive data, credentials, and system access from misuse or exposure."
+  },
+  {
+    "id": 15,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does inclusiveness mean in responsible AI?",
+    "answer": "Inclusiveness means AI systems should be designed for diverse users, abilities, languages, environments, and accessibility needs."
+  },
+  {
+    "id": 16,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does transparency mean in responsible AI?",
+    "answer": "Transparency means users and stakeholders should understand the purpose, capabilities, limitations, and decision logic of an AI system where appropriate."
+  },
+  {
+    "id": 17,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Beginner",
+    "question": "What does accountability mean in responsible AI?",
+    "answer": "Accountability means people and organizations remain responsible for AI system design, deployment, monitoring, governance, and outcomes."
+  },
+  {
+    "id": 18,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "Why should AI systems be monitored after deployment?",
+    "answer": "Monitoring helps detect drift, poor performance, harmful outputs, security issues, cost changes, user dissatisfaction, and reliability problems."
+  },
+  {
+    "id": 19,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "What is model bias?",
+    "answer": "Model bias occurs when an AI system produces unfair or inaccurate results because of imbalanced data, flawed assumptions, or inappropriate design choices."
+  },
+  {
+    "id": 20,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "What is explainability?",
+    "answer": "Explainability is the ability to understand and communicate why an AI system produced a particular result or recommendation."
+  },
+  {
+    "id": 21,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "What is human oversight in AI?",
+    "answer": "Human oversight means people review, approve, monitor, or intervene in AI-driven processes, especially when risks, uncertainty, or business impact are high."
+  },
+  {
+    "id": 22,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "Why should AI solutions have clear user disclosure?",
+    "answer": "Disclosure helps users understand when they are interacting with AI, what the AI can do, and where its outputs may require verification."
+  },
+  {
+    "id": 23,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Intermediate",
+    "question": "What is content safety?",
+    "answer": "Content safety refers to controls that reduce harmful, inappropriate, unsafe, or policy-violating inputs and outputs in AI applications."
+  },
+  {
+    "id": 24,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Advanced",
+    "question": "What is an example of a responsible AI risk in a hiring solution?",
+    "answer": "A hiring AI solution could unfairly rank candidates if training data reflects historical bias, excludes qualified groups, or uses inappropriate features."
+  },
+  {
+    "id": 25,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Responsible AI",
+    "difficulty": "Advanced",
+    "question": "Why is governance important for enterprise AI adoption?",
+    "answer": "Governance establishes standards for risk review, data use, access control, compliance, monitoring, documentation, and accountability across AI initiatives."
+  },
+  {
+    "id": 26,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning trains a model using labeled data where the correct answer or target value is known."
+  },
+  {
+    "id": 27,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning finds patterns, relationships, or groupings in data without using labeled target values."
+  },
+  {
+    "id": 28,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is classification?",
+    "answer": "Classification predicts a category or class, such as approved or denied, spam or not spam, or high risk versus low risk."
+  },
+  {
+    "id": 29,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is binary classification?",
+    "answer": "Binary classification predicts one of two possible classes, such as true or false, yes or no, or pass or fail."
+  },
+  {
+    "id": 30,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is multiclass classification?",
+    "answer": "Multiclass classification predicts one category from three or more possible classes."
+  },
+  {
+    "id": 31,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is regression?",
+    "answer": "Regression predicts a numeric value, such as cost, revenue, demand, temperature, or delivery time."
+  },
+  {
+    "id": 32,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is clustering?",
+    "answer": "Clustering groups similar data points together without predefined labels."
+  },
+  {
+    "id": 33,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a feature?",
+    "answer": "A feature is an input variable used by a model to make a prediction or classification."
+  },
+  {
+    "id": 34,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a label?",
+    "answer": "A label is the known target value used in supervised learning to train or evaluate a model."
+  },
+  {
+    "id": 35,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a dataset?",
+    "answer": "A dataset is a structured collection of data used for training, testing, evaluating, or operating an AI solution."
+  },
+  {
+    "id": 36,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is model training?",
+    "answer": "Model training is the process of using data to teach an algorithm patterns that can be used for prediction or decision-making."
+  },
+  {
+    "id": 37,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is model evaluation?",
+    "answer": "Model evaluation measures how well a trained model performs using test data and metrics such as accuracy, precision, recall, F1 score, or error."
+  },
+  {
+    "id": 38,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is model deployment?",
+    "answer": "Model deployment makes a trained model available to applications, users, or services through an endpoint or hosted environment."
+  },
+  {
+    "id": 39,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is model retraining?",
+    "answer": "Model retraining updates a model with new or improved data so it can maintain accuracy as patterns change over time."
+  },
+  {
+    "id": 40,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is data splitting?",
+    "answer": "Data splitting separates data into training, validation, and test sets so a model can be trained and evaluated on different examples."
+  },
+  {
+    "id": 41,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is overfitting?",
+    "answer": "Overfitting occurs when a model learns training data too closely and performs poorly on new data."
+  },
+  {
+    "id": 42,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is underfitting?",
+    "answer": "Underfitting occurs when a model is too simple or poorly trained to capture meaningful patterns in the data."
+  },
+  {
+    "id": 43,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is feature engineering?",
+    "answer": "Feature engineering is the process of selecting, transforming, or creating input variables to improve model performance."
+  },
+  {
+    "id": 44,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is automated machine learning?",
+    "answer": "Automated machine learning helps select algorithms, preprocess data, tune parameters, and build models with less manual effort."
+  },
+  {
+    "id": 45,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML lifecycle",
+    "difficulty": "Intermediate",
+    "question": "What is a training pipeline?",
+    "answer": "A training pipeline is an automated workflow that prepares data, trains a model, evaluates it, and may register or deploy the result."
+  },
+  {
+    "id": 46,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML metrics",
+    "difficulty": "Intermediate",
+    "question": "What does accuracy measure?",
+    "answer": "Accuracy measures the proportion of total predictions that were correct."
+  },
+  {
+    "id": 47,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML metrics",
+    "difficulty": "Intermediate",
+    "question": "What does precision measure?",
+    "answer": "Precision measures how many predicted positive results were actually positive."
+  },
+  {
+    "id": 48,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML metrics",
+    "difficulty": "Intermediate",
+    "question": "What does recall measure?",
+    "answer": "Recall measures how many actual positive cases the model correctly identified."
+  },
+  {
+    "id": 49,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML metrics",
+    "difficulty": "Advanced",
+    "question": "When is recall especially important?",
+    "answer": "Recall is especially important when missing a positive case is costly, such as fraud detection, medical screening, or security alerting."
+  },
+  {
+    "id": 50,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "ML metrics",
+    "difficulty": "Advanced",
+    "question": "When is precision especially important?",
+    "answer": "Precision is especially important when false positives are costly, such as blocking legitimate users or incorrectly flagging compliant transactions."
+  },
+  {
+    "id": 51,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to predict next quarter revenue. Which machine learning task should be used?",
+    "answer": "Regression should be used because the goal is to predict a numeric value."
+  },
+  {
+    "id": 52,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to detect whether an email is spam or not spam. Which task should be used?",
+    "answer": "Binary classification should be used because there are two possible classes."
+  },
+  {
+    "id": 53,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A retailer wants to group customers by similar buying behavior without predefined labels. Which task should be used?",
+    "answer": "Clustering should be used because the goal is to discover natural groups in unlabeled data."
+  },
+  {
+    "id": 54,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A support team wants to route tickets to billing, technical support, or sales. Which task should be used?",
+    "answer": "Multiclass classification should be used because the model chooses one category from multiple possible categories."
+  },
+  {
+    "id": 55,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A model performs very well on training data but poorly on new data. What is the likely issue?",
+    "answer": "The likely issue is overfitting."
+  },
+  {
+    "id": 56,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A model is inaccurate on both training and test data. What is the likely issue?",
+    "answer": "The model may be underfitting, the data may be poor quality, or the features may not capture useful patterns."
+  },
+  {
+    "id": 57,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Beginner",
+    "question": "What is Azure Machine Learning used for?",
+    "answer": "Azure Machine Learning is used to build, train, evaluate, deploy, and manage machine learning models and workflows."
+  },
+  {
+    "id": 58,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Intermediate",
+    "question": "What is a compute target in Azure Machine Learning?",
+    "answer": "A compute target is the processing resource used to train or run machine learning workloads."
+  },
+  {
+    "id": 59,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Intermediate",
+    "question": "What is a registered model?",
+    "answer": "A registered model is a versioned model artifact stored in a workspace so it can be tracked, managed, and deployed."
+  },
+  {
+    "id": 60,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Intermediate",
+    "question": "What is an online endpoint?",
+    "answer": "An online endpoint hosts a model for real-time inferencing so applications can send requests and receive immediate predictions."
+  },
+  {
+    "id": 61,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Intermediate",
+    "question": "What is batch inferencing?",
+    "answer": "Batch inferencing processes many records at once, often on a schedule or against stored data, rather than returning real-time responses."
+  },
+  {
+    "id": 62,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Advanced",
+    "question": "When should you use batch inferencing instead of real-time inferencing?",
+    "answer": "Use batch inferencing when predictions are needed for large sets of records and immediate response time is not required."
+  },
+  {
+    "id": 63,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Azure ML concepts",
+    "difficulty": "Advanced",
+    "question": "Why is versioning important in machine learning?",
+    "answer": "Versioning helps track datasets, models, code, parameters, and deployments so teams can audit, compare, reproduce, and roll back changes."
+  },
+  {
+    "id": 64,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is computer vision?",
+    "answer": "Computer vision is an AI capability that enables systems to analyze, interpret, and extract information from images and video."
+  },
+  {
+    "id": 65,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is image classification?",
+    "answer": "Image classification identifies the main category or label for an image."
+  },
+  {
+    "id": 66,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is object detection?",
+    "answer": "Object detection identifies objects in an image and usually returns their locations using bounding boxes."
+  },
+  {
+    "id": 67,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is image analysis?",
+    "answer": "Image analysis detects visual features such as objects, tags, text, people, descriptions, and other image attributes."
+  },
+  {
+    "id": 68,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is image captioning?",
+    "answer": "Image captioning generates a natural language description of what appears in an image."
+  },
+  {
+    "id": 69,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is optical character recognition?",
+    "answer": "Optical character recognition extracts printed or handwritten text from images, scanned documents, or visual content."
+  },
+  {
+    "id": 70,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is facial detection?",
+    "answer": "Facial detection identifies the presence and location of human faces in an image."
+  },
+  {
+    "id": 71,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is facial recognition?",
+    "answer": "Facial recognition attempts to identify or verify a person based on facial features, and it requires careful privacy, consent, and compliance controls."
+  },
+  {
+    "id": 72,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is spatial analysis?",
+    "answer": "Spatial analysis uses vision to understand physical spaces, movement, occupancy, or relationships between objects and people."
+  },
+  {
+    "id": 73,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Vision fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is visual search?",
+    "answer": "Visual search uses an image or visual features to find similar images, products, objects, or assets."
+  },
+  {
+    "id": 74,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Beginner",
+    "question": "What is document intelligence?",
+    "answer": "Document intelligence uses AI to extract text, key-value pairs, tables, and structured fields from documents such as invoices, receipts, forms, and contracts."
+  },
+  {
+    "id": 75,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Beginner",
+    "question": "What is a key-value pair in document extraction?",
+    "answer": "A key-value pair is a field name and its extracted value, such as Invoice Number: 12345 or Total: $250.00."
+  },
+  {
+    "id": 76,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Beginner",
+    "question": "What type of AI capability extracts text from a scanned PDF?",
+    "answer": "Optical character recognition extracts text from scanned PDFs and images."
+  },
+  {
+    "id": 77,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Intermediate",
+    "question": "What is a prebuilt document model?",
+    "answer": "A prebuilt document model is a ready-made model designed to extract common fields from standard document types such as invoices, receipts, identity documents, or tax forms."
+  },
+  {
+    "id": 78,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Intermediate",
+    "question": "What is a custom document model?",
+    "answer": "A custom document model is trained or configured to extract information from organization-specific document formats."
+  },
+  {
+    "id": 79,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Intermediate",
+    "question": "When should you use a custom document model?",
+    "answer": "Use a custom document model when prebuilt models do not understand the organization's specific forms, layouts, or required fields."
+  },
+  {
+    "id": 80,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Document intelligence",
+    "difficulty": "Advanced",
+    "question": "Why is human review useful in document AI workflows?",
+    "answer": "Human review helps validate uncertain extractions, correct errors, improve quality, and reduce business risk in high-impact workflows."
+  },
+  {
+    "id": 81,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A business needs to read handwritten notes from scanned forms. Which capability is most relevant?",
+    "answer": "Optical character recognition is most relevant because it extracts handwritten or printed text from images or documents."
+  },
+  {
+    "id": 82,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A warehouse wants to count boxes in camera images. Which capability is most relevant?",
+    "answer": "Object detection is most relevant because it can identify and locate multiple objects in an image."
+  },
+  {
+    "id": 83,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A website wants to automatically tag uploaded product images. Which capability is most relevant?",
+    "answer": "Image analysis or image classification is appropriate because the goal is to identify visual content and assign labels."
+  },
+  {
+    "id": 84,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A finance team wants to extract invoice totals, dates, and vendor names from PDFs. Which service type is most appropriate?",
+    "answer": "Document intelligence is most appropriate because it extracts structured fields from business documents."
+  },
+  {
+    "id": 85,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A safety team wants to detect whether workers are wearing helmets in images. Which vision task fits best?",
+    "answer": "Object detection or image classification can be used, depending on whether the solution needs to locate helmets or simply determine whether a helmet is present."
+  },
+  {
+    "id": 86,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "A company wants to identify individual people from camera footage. What responsible AI concern is most important?",
+    "answer": "Privacy, consent, compliance, transparency, and appropriate use are critical because facial recognition can affect individual rights and safety."
+  },
+  {
+    "id": 87,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Azure AI Vision",
+    "difficulty": "Beginner",
+    "question": "What is Azure AI Vision used for?",
+    "answer": "Azure AI Vision provides image analysis, OCR, captioning, object detection, and other visual analysis capabilities."
+  },
+  {
+    "id": 88,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Azure AI Vision",
+    "difficulty": "Intermediate",
+    "question": "What type of response might OCR return?",
+    "answer": "OCR may return detected text, page structure, lines, words, confidence scores, and locations of text within the image or document."
+  },
+  {
+    "id": 89,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Azure AI Vision",
+    "difficulty": "Intermediate",
+    "question": "Why might confidence scores matter in vision results?",
+    "answer": "Confidence scores help determine how certain the model is, which can guide automation, review thresholds, and exception handling."
+  },
+  {
+    "id": 90,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Azure AI Vision",
+    "difficulty": "Advanced",
+    "question": "Why should image-based AI systems be tested across different lighting and angles?",
+    "answer": "Different lighting, angles, camera quality, and backgrounds can affect model performance, so testing improves reliability and safety."
+  },
+  {
+    "id": 91,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is natural language processing?",
+    "answer": "Natural language processing is an AI capability that enables systems to understand, analyze, transform, and generate human language."
+  },
+  {
+    "id": 92,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is sentiment analysis?",
+    "answer": "Sentiment analysis identifies whether text expresses positive, negative, neutral, or mixed sentiment."
+  },
+  {
+    "id": 93,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is key phrase extraction?",
+    "answer": "Key phrase extraction identifies important words or phrases from text."
+  },
+  {
+    "id": 94,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is named entity recognition?",
+    "answer": "Named entity recognition identifies entities such as people, organizations, locations, dates, quantities, products, and events in text."
+  },
+  {
+    "id": 95,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is language detection?",
+    "answer": "Language detection identifies the language used in text."
+  },
+  {
+    "id": 96,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is text translation?",
+    "answer": "Text translation converts text from one language to another."
+  },
+  {
+    "id": 97,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is summarization?",
+    "answer": "Summarization condenses longer text into a shorter version while preserving the main points."
+  },
+  {
+    "id": 98,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is question answering?",
+    "answer": "Question answering returns answers to user questions using a knowledge base, documents, or retrieved content."
+  },
+  {
+    "id": 99,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is intent recognition?",
+    "answer": "Intent recognition identifies what a user wants to do, such as reset a password, check an order, or schedule an appointment."
+  },
+  {
+    "id": 100,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "NLP fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is entity extraction in conversational AI?",
+    "answer": "Entity extraction identifies important values in a user message, such as dates, locations, product names, or account numbers."
+  },
+  {
+    "id": 101,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Conversational AI",
+    "difficulty": "Beginner",
+    "question": "What is conversational AI?",
+    "answer": "Conversational AI enables systems such as chatbots, copilots, and virtual agents to interact with users through natural language."
+  },
+  {
+    "id": 102,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Conversational AI",
+    "difficulty": "Beginner",
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is an application that interacts with users through text or voice to answer questions, guide workflows, or perform tasks."
+  },
+  {
+    "id": 103,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Conversational AI",
+    "difficulty": "Intermediate",
+    "question": "What is conversational language understanding?",
+    "answer": "Conversational language understanding identifies user intent and extracts entities from conversational input."
+  },
+  {
+    "id": 104,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Conversational AI",
+    "difficulty": "Intermediate",
+    "question": "What is a fallback response?",
+    "answer": "A fallback response is used when a bot or AI assistant cannot confidently understand or answer the user's request."
+  },
+  {
+    "id": 105,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Conversational AI",
+    "difficulty": "Intermediate",
+    "question": "Why should a conversational AI system support escalation?",
+    "answer": "Escalation allows users to reach a human or alternate process when the AI cannot safely or accurately resolve the issue."
+  },
+  {
+    "id": 106,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Speech",
+    "difficulty": "Beginner",
+    "question": "What is speech-to-text?",
+    "answer": "Speech-to-text converts spoken audio into written text."
+  },
+  {
+    "id": 107,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Speech",
+    "difficulty": "Beginner",
+    "question": "What is text-to-speech?",
+    "answer": "Text-to-speech converts written text into spoken audio."
+  },
+  {
+    "id": 108,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Speech",
+    "difficulty": "Beginner",
+    "question": "What is speech translation?",
+    "answer": "Speech translation converts spoken language in one language into text or speech in another language."
+  },
+  {
+    "id": 109,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Speech",
+    "difficulty": "Intermediate",
+    "question": "What is speaker recognition?",
+    "answer": "Speaker recognition identifies or verifies a speaker based on voice characteristics and requires appropriate privacy and consent considerations."
+  },
+  {
+    "id": 110,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Speech",
+    "difficulty": "Intermediate",
+    "question": "Why is audio quality important for speech recognition?",
+    "answer": "Noise, accents, microphone quality, and overlapping speakers can affect transcription accuracy."
+  },
+  {
+    "id": 111,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to identify whether customer reviews are positive or negative. Which capability should it use?",
+    "answer": "Sentiment analysis should be used."
+  },
+  {
+    "id": 112,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to extract product names and dates from emails. Which capability should it use?",
+    "answer": "Named entity recognition should be used."
+  },
+  {
+    "id": 113,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to detect the language of incoming support messages. Which capability should it use?",
+    "answer": "Language detection should be used."
+  },
+  {
+    "id": 114,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to make training documents available in multiple languages. Which capability should it use?",
+    "answer": "Text translation should be used."
+  },
+  {
+    "id": 115,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A bot needs to know whether a user wants to reset a password or unlock an account. Which capability should it use?",
+    "answer": "Conversational language understanding should be used to identify intent."
+  },
+  {
+    "id": 116,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A meeting app needs to create written notes from audio. Which capability should it use?",
+    "answer": "Speech-to-text should be used to transcribe spoken audio."
+  },
+  {
+    "id": 117,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A customer service app needs to read responses aloud. Which capability should it use?",
+    "answer": "Text-to-speech should be used."
+  },
+  {
+    "id": 118,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "A chatbot gives uncertain answers to policy questions. What design improvement reduces risk?",
+    "answer": "Use grounding with approved policy documents, confidence thresholds, fallback responses, and escalation to human support when needed."
+  },
+  {
+    "id": 119,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Azure AI Language",
+    "difficulty": "Beginner",
+    "question": "What is Azure AI Language used for?",
+    "answer": "Azure AI Language provides language understanding, sentiment analysis, key phrase extraction, entity recognition, summarization, and question answering capabilities."
+  },
+  {
+    "id": 120,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Azure AI Speech",
+    "difficulty": "Beginner",
+    "question": "What is Azure AI Speech used for?",
+    "answer": "Azure AI Speech provides speech-to-text, text-to-speech, speech translation, and related speech processing capabilities."
+  },
+  {
+    "id": 121,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a prompt?",
+    "answer": "A prompt is the input, question, instruction, or context provided to a generative AI model to guide its response."
+  },
+  {
+    "id": 122,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is prompt engineering?",
+    "answer": "Prompt engineering is the practice of designing and refining prompts to produce more useful, accurate, safe, and relevant AI responses."
+  },
+  {
+    "id": 123,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a large language model?",
+    "answer": "A large language model is a generative AI model trained on large amounts of text to understand and produce language."
+  },
+  {
+    "id": 124,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a token?",
+    "answer": "A token is a unit of text processed by a model, such as a word, part of a word, number, or punctuation mark."
+  },
+  {
+    "id": 125,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is context in a generative AI request?",
+    "answer": "Context is the information provided to the model to help it understand the task, constraints, background, or source material."
+  },
+  {
+    "id": 126,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Beginner",
+    "question": "What is a system message?",
+    "answer": "A system message provides high-priority instructions that guide the model's behavior, tone, boundaries, or role."
+  },
+  {
+    "id": 127,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is temperature in generative AI?",
+    "answer": "Temperature controls randomness. Lower values usually produce more consistent responses, while higher values produce more varied responses."
+  },
+  {
+    "id": 128,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is top-p sampling?",
+    "answer": "Top-p sampling controls diversity by limiting output choices to a probability mass of likely tokens."
+  },
+  {
+    "id": 129,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is grounding?",
+    "answer": "Grounding connects model responses to trusted information sources so answers are more relevant, current, and supportable."
+  },
+  {
+    "id": 130,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is retrieval augmented generation?",
+    "answer": "Retrieval augmented generation retrieves relevant content from external sources and provides it to the model so it can generate grounded answers."
+  },
+  {
+    "id": 131,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is hallucination?",
+    "answer": "Hallucination occurs when a model produces information that sounds plausible but is incorrect, fabricated, or unsupported."
+  },
+  {
+    "id": 132,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is a context window?",
+    "answer": "A context window is the amount of information a model can consider at one time during a request."
+  },
+  {
+    "id": 133,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Intermediate",
+    "question": "What is multimodal AI?",
+    "answer": "Multimodal AI can process or generate more than one type of data, such as text, images, audio, or video."
+  },
+  {
+    "id": 134,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Advanced",
+    "question": "Why can generative AI produce different answers to similar prompts?",
+    "answer": "Generative AI can produce variation because of sampling settings, prompt wording, context, model behavior, and probabilistic output generation."
+  },
+  {
+    "id": 135,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Generative AI fundamentals",
+    "difficulty": "Advanced",
+    "question": "Why should generated answers be validated in business-critical workflows?",
+    "answer": "Generated answers may be incomplete, outdated, biased, or hallucinated, so validation reduces operational, legal, compliance, and customer-impact risk."
+  },
+  {
+    "id": 136,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Beginner",
+    "question": "What is Microsoft Foundry used for?",
+    "answer": "Microsoft Foundry is used to build, evaluate, customize, deploy, monitor, and manage AI applications, models, agents, and related AI resources."
+  },
+  {
+    "id": 137,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Beginner",
+    "question": "What is a model catalog?",
+    "answer": "A model catalog provides access to available models that can be selected, evaluated, customized, or deployed for AI solutions."
+  },
+  {
+    "id": 138,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Beginner",
+    "question": "What is model deployment?",
+    "answer": "Model deployment makes a model available to applications through a hosted service or endpoint."
+  },
+  {
+    "id": 139,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Beginner",
+    "question": "What is an endpoint?",
+    "answer": "An endpoint is a network-accessible interface that applications use to send requests to a deployed AI model or service."
+  },
+  {
+    "id": 140,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Intermediate",
+    "question": "What is model evaluation in Microsoft Foundry-style workflows?",
+    "answer": "Model evaluation compares model outputs against criteria such as accuracy, relevance, groundedness, safety, latency, and cost."
+  },
+  {
+    "id": 141,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Intermediate",
+    "question": "What is prompt flow or orchestration?",
+    "answer": "Prompt flow or orchestration coordinates prompts, data retrieval, model calls, tools, and application logic into an AI workflow."
+  },
+  {
+    "id": 142,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Intermediate",
+    "question": "What is content filtering?",
+    "answer": "Content filtering helps detect and reduce harmful, unsafe, inappropriate, or policy-violating inputs and outputs."
+  },
+  {
+    "id": 143,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Intermediate",
+    "question": "What is an AI project workspace used for?",
+    "answer": "An AI project workspace organizes resources, models, prompts, evaluations, deployments, data connections, and collaboration for AI development."
+  },
+  {
+    "id": 144,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Intermediate",
+    "question": "What is model monitoring?",
+    "answer": "Model monitoring tracks performance, quality, safety, usage, errors, latency, and cost after a model or AI app is deployed."
+  },
+  {
+    "id": 145,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Advanced",
+    "question": "Why compare multiple models before deployment?",
+    "answer": "Comparing models helps select the best balance of quality, safety, cost, latency, supported capabilities, and business fit."
+  },
+  {
+    "id": 146,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Microsoft Foundry",
+    "difficulty": "Advanced",
+    "question": "Why might a smaller model be preferred over a larger model?",
+    "answer": "A smaller model may be faster, cheaper, easier to deploy, and sufficient for the task even if a larger model is more capable."
+  },
+  {
+    "id": 147,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Beginner",
+    "question": "What is an AI agent?",
+    "answer": "An AI agent is a system that can interpret user goals, reason through tasks, use tools or data, and perform actions on behalf of a user or process."
+  },
+  {
+    "id": 148,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Beginner",
+    "question": "What is a tool in an agent solution?",
+    "answer": "A tool is a function, API, connector, database, search index, or external capability an agent can call to complete a task."
+  },
+  {
+    "id": 149,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Intermediate",
+    "question": "What is agent orchestration?",
+    "answer": "Agent orchestration coordinates instructions, reasoning, tool use, memory, retrieval, model calls, and workflow steps to complete a task."
+  },
+  {
+    "id": 150,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Intermediate",
+    "question": "Why should agent tools have permission controls?",
+    "answer": "Permission controls reduce the risk of unauthorized actions, data exposure, accidental changes, or misuse of connected systems."
+  },
+  {
+    "id": 151,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Intermediate",
+    "question": "What is human-in-the-loop approval for agents?",
+    "answer": "Human-in-the-loop approval requires a person to review or approve certain agent actions before they are completed."
+  },
+  {
+    "id": 152,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Agents",
+    "difficulty": "Advanced",
+    "question": "When should an agent require approval before acting?",
+    "answer": "Approval should be required for sensitive, irreversible, high-cost, regulated, customer-impacting, or security-related actions."
+  },
+  {
+    "id": 153,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A user asks an AI assistant to summarize a long policy document. Which AI capability is being used?",
+    "answer": "Generative AI with summarization is being used."
+  },
+  {
+    "id": 154,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A model gives a confident answer that is not supported by the source material. What is this called?",
+    "answer": "This is called hallucination."
+  },
+  {
+    "id": 155,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A company wants an AI assistant to answer from internal HR documents only. What should it use?",
+    "answer": "It should use grounding or retrieval augmented generation with approved HR content."
+  },
+  {
+    "id": 156,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A business wants an AI assistant to check inventory by calling an API. What agent concept is involved?",
+    "answer": "Tool use is involved because the agent calls an external API to complete the task."
+  },
+  {
+    "id": 157,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "An AI agent can send refunds to customers. What control should be added?",
+    "answer": "Human approval, permissions, logging, policy checks, and transaction limits should be added because the action has financial impact."
+  },
+  {
+    "id": 158,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Beginner",
+    "question": "What are Azure AI services?",
+    "answer": "Azure AI services are cloud-based services that provide prebuilt AI capabilities for vision, language, speech, search, decision support, and generative AI scenarios."
+  },
+  {
+    "id": 159,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Beginner",
+    "question": "Why use prebuilt Azure AI services?",
+    "answer": "Prebuilt services allow developers to add AI capabilities without training custom models from scratch."
+  },
+  {
+    "id": 160,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Beginner",
+    "question": "What is an Azure resource?",
+    "answer": "An Azure resource is a manageable cloud service instance, such as an AI service, storage account, database, or compute resource."
+  },
+  {
+    "id": 161,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Beginner",
+    "question": "What is a resource group?",
+    "answer": "A resource group is a logical container for managing related Azure resources together."
+  },
+  {
+    "id": 162,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Beginner",
+    "question": "What is a region in Azure?",
+    "answer": "A region is a geographic location where Azure resources are hosted."
+  },
+  {
+    "id": 163,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Intermediate",
+    "question": "Why does region selection matter for AI services?",
+    "answer": "Region selection can affect service availability, latency, compliance, data residency, cost, and disaster recovery design."
+  },
+  {
+    "id": 164,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Intermediate",
+    "question": "What is an API endpoint URL?",
+    "answer": "An API endpoint URL is the address an application uses to send requests to a cloud service."
+  },
+  {
+    "id": 165,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Intermediate",
+    "question": "What is an API key?",
+    "answer": "An API key is a credential used to authenticate application requests to a service, though stronger identity-based approaches may be preferred."
+  },
+  {
+    "id": 166,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Intermediate",
+    "question": "What is rate limiting?",
+    "answer": "Rate limiting restricts how many requests can be made to a service within a period of time."
+  },
+  {
+    "id": 167,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Azure AI services",
+    "difficulty": "Intermediate",
+    "question": "What is quota?",
+    "answer": "Quota is a service limit that controls capacity, usage, request volume, or resource allocation."
+  },
+  {
+    "id": 168,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Beginner",
+    "question": "What is an SDK?",
+    "answer": "A software development kit provides libraries, tools, and examples that make it easier to use a service from application code."
+  },
+  {
+    "id": 169,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Beginner",
+    "question": "What is a REST API?",
+    "answer": "A REST API is a web interface that allows applications to communicate with services using standard HTTP requests and responses."
+  },
+  {
+    "id": 170,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Beginner",
+    "question": "Why use environment variables?",
+    "answer": "Environment variables keep configuration and secrets separate from source code."
+  },
+  {
+    "id": 171,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Intermediate",
+    "question": "Why should secrets not be hardcoded in application code?",
+    "answer": "Hardcoded secrets can be exposed through source control, logs, screenshots, packages, or shared files."
+  },
+  {
+    "id": 172,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Intermediate",
+    "question": "What is managed identity?",
+    "answer": "Managed identity allows Azure resources to authenticate to other Azure services without storing credentials in code."
+  },
+  {
+    "id": 173,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Intermediate",
+    "question": "What is Azure role-based access control?",
+    "answer": "Azure role-based access control grants permissions to users, groups, or identities based on assigned roles and resource scope."
+  },
+  {
+    "id": 174,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Intermediate",
+    "question": "What is latency?",
+    "answer": "Latency is the time it takes for a system or service to respond to a request."
+  },
+  {
+    "id": 175,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Intermediate",
+    "question": "What is throughput?",
+    "answer": "Throughput is the amount of work or number of requests a system can process over a period of time."
+  },
+  {
+    "id": 176,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Advanced",
+    "question": "Why should production AI apps handle retries and failures?",
+    "answer": "Retries and failure handling improve resilience when services experience throttling, transient network errors, or temporary unavailability."
+  },
+  {
+    "id": 177,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Application development",
+    "difficulty": "Advanced",
+    "question": "Why is logging important in AI applications?",
+    "answer": "Logging helps troubleshoot errors, audit usage, monitor quality, investigate incidents, and understand operational behavior."
+  },
+  {
+    "id": 178,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Beginner",
+    "question": "What is Azure AI Search commonly used for in AI solutions?",
+    "answer": "Azure AI Search is commonly used to index and retrieve relevant enterprise content for search experiences and grounding generative AI responses."
+  },
+  {
+    "id": 179,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Intermediate",
+    "question": "What is an index in a search service?",
+    "answer": "An index is a searchable structure that contains fields, content, metadata, and sometimes vector representations for retrieval."
+  },
+  {
+    "id": 180,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Intermediate",
+    "question": "What is semantic search?",
+    "answer": "Semantic search uses meaning and context, rather than only exact keyword matches, to find relevant information."
+  },
+  {
+    "id": 181,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Intermediate",
+    "question": "What is vector search?",
+    "answer": "Vector search represents content as numeric embeddings and finds similar content based on mathematical distance."
+  },
+  {
+    "id": 182,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Intermediate",
+    "question": "What is an embedding?",
+    "answer": "An embedding is a numeric representation of data, such as text or images, that captures semantic meaning for comparison and retrieval."
+  },
+  {
+    "id": 183,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Search and grounding",
+    "difficulty": "Advanced",
+    "question": "Why is chunking used in retrieval augmented generation?",
+    "answer": "Chunking breaks documents into smaller sections so relevant passages can be retrieved and included within the model context window."
+  },
+  {
+    "id": 184,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Security and governance",
+    "difficulty": "Beginner",
+    "question": "What is least privilege?",
+    "answer": "Least privilege means granting only the minimum access required for a user, app, or service to perform its function."
+  },
+  {
+    "id": 185,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Security and governance",
+    "difficulty": "Intermediate",
+    "question": "Why use private networking for sensitive AI workloads?",
+    "answer": "Private networking can reduce exposure to the public internet and improve security for sensitive data and services."
+  },
+  {
+    "id": 186,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Security and governance",
+    "difficulty": "Intermediate",
+    "question": "What is data residency?",
+    "answer": "Data residency refers to where data is stored and processed geographically, which may be important for compliance or contractual requirements."
+  },
+  {
+    "id": 187,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Security and governance",
+    "difficulty": "Advanced",
+    "question": "Why should AI app access be audited?",
+    "answer": "Auditing helps detect misuse, investigate incidents, demonstrate compliance, and validate that access aligns with policy."
+  },
+  {
+    "id": 188,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A developer wants to call an Azure AI service from Python without building raw HTTP requests. What should they use?",
+    "answer": "They should use the appropriate SDK."
+  },
+  {
+    "id": 189,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "An app needs a service address and credential to call an AI endpoint. What two items are usually required?",
+    "answer": "An endpoint URL and an authentication credential such as an API key or identity token are usually required."
+  },
+  {
+    "id": 190,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A company wants AI answers from its product manuals. Which Azure capability can help retrieve relevant manual sections?",
+    "answer": "Azure AI Search can index and retrieve relevant content for grounded AI responses."
+  },
+  {
+    "id": 191,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "An app is failing because too many requests are sent too quickly. What service concept is likely involved?",
+    "answer": "Rate limiting or quota is likely involved."
+  },
+  {
+    "id": 192,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "An enterprise wants to avoid storing keys in code for Azure-hosted apps. What should it consider?",
+    "answer": "It should consider managed identity with role-based access control where supported."
+  },
+  {
+    "id": 193,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A business leader asks why AI governance is needed before deploying copilots broadly. What is the best answer?",
+    "answer": "AI governance defines standards for data use, security, compliance, monitoring, responsible AI, and accountability so copilots can be adopted safely and consistently."
+  },
+  {
+    "id": 194,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "An AI model performs differently across demographic groups. Which responsible AI principle is most directly involved?",
+    "answer": "Fairness is most directly involved because the issue may indicate unequal or biased outcomes."
+  },
+  {
+    "id": 195,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A customer-facing AI assistant should tell users that responses are AI-generated. Which responsible AI principle does this support?",
+    "answer": "Transparency, because users should understand when they are interacting with AI and what limitations may apply."
+  },
+  {
+    "id": 196,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "An AI output will influence loan approval. What should the organization include in the process?",
+    "answer": "The organization should include fairness testing, explainability, governance review, human oversight, monitoring, and compliance controls."
+  },
+  {
+    "id": 197,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A model predicts whether equipment will fail in the next 30 days. Which type of machine learning task is this if the output is yes or no?",
+    "answer": "Binary classification because the output has two possible classes."
+  },
+  {
+    "id": 198,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A model predicts the expected repair cost for equipment. Which type of task is this?",
+    "answer": "Regression because the output is a numeric value."
+  },
+  {
+    "id": 199,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A model is trained with historical examples that include known fraud outcomes. What learning type is being used?",
+    "answer": "Supervised learning because the training data includes labels."
+  },
+  {
+    "id": 200,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A model groups documents by topic without predefined topic labels. What learning type is being used?",
+    "answer": "Unsupervised learning because the model discovers groups without labeled targets."
+  },
+  {
+    "id": 201,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "Why should a test dataset be kept separate from training data?",
+    "answer": "A separate test dataset provides a more realistic measurement of how the model performs on unseen data."
+  },
+  {
+    "id": 202,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A mobile app needs to identify the type of flower in a photo. Which vision task is most appropriate?",
+    "answer": "Image classification is most appropriate because the goal is to assign a label to the image."
+  },
+  {
+    "id": 203,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A traffic system needs to locate vehicles in video frames. Which vision task is most appropriate?",
+    "answer": "Object detection is most appropriate because the system must identify and locate objects."
+  },
+  {
+    "id": 204,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A claims process needs to extract text from photos of receipts. Which capability should be used?",
+    "answer": "OCR should be used to extract text from receipt images."
+  },
+  {
+    "id": 205,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "An invoice extraction model has low confidence on some fields. What should the workflow do?",
+    "answer": "The workflow should route low-confidence extractions for human review or validation."
+  },
+  {
+    "id": 206,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A company wants to determine whether social media comments are favorable. Which NLP feature should it use?",
+    "answer": "Sentiment analysis should be used."
+  },
+  {
+    "id": 207,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A virtual assistant asks 'What date do you want the appointment?' after detecting a scheduling intent. What is it trying to collect?",
+    "answer": "It is trying to collect an entity, such as the appointment date."
+  },
+  {
+    "id": 208,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A voice app converts a customer call into searchable text. Which capability is used?",
+    "answer": "Speech-to-text is used."
+  },
+  {
+    "id": 209,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "A multilingual support bot must answer customers in their preferred language. Which capabilities may be combined?",
+    "answer": "Language detection, translation, question answering, and generative AI may be combined."
+  },
+  {
+    "id": 210,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A user writes instructions to an AI model to create an email draft. What is the instruction called?",
+    "answer": "The instruction is called a prompt."
+  },
+  {
+    "id": 211,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A business wants consistent AI responses with less randomness. Which generation setting should likely be lowered?",
+    "answer": "Temperature should likely be lowered."
+  },
+  {
+    "id": 212,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "An assistant answers using documents retrieved from a search index. What technique is being used?",
+    "answer": "Retrieval augmented generation is being used."
+  },
+  {
+    "id": 213,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "An agent can access customer records. What is a key design requirement?",
+    "answer": "Access should be governed by permissions, least privilege, auditing, privacy controls, and secure tool design."
+  },
+  {
+    "id": 214,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Beginner",
+    "question": "A developer wants a ready-made service for language detection rather than training a model. What should they use?",
+    "answer": "They should use a prebuilt Azure AI language capability."
+  },
+  {
+    "id": 215,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "An AI app must be deployed close to European users to reduce latency and meet data requirements. What should be considered?",
+    "answer": "Azure region selection should be considered for latency, availability, and data residency."
+  },
+  {
+    "id": 216,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Intermediate",
+    "question": "A production app needs to observe response time, failures, and usage volume. What should be implemented?",
+    "answer": "Monitoring, logging, and alerting should be implemented."
+  },
+  {
+    "id": 217,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Scenario",
+    "difficulty": "Advanced",
+    "question": "A grounded AI app retrieves irrelevant content too often. What should be reviewed?",
+    "answer": "Review document chunking, indexing strategy, metadata, embeddings, query design, relevance tuning, and source quality."
+  },
+  {
+    "id": 218,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which vision capability identifies objects and their locations? Review variation 218.",
+    "answer": "Object detection."
+  },
+  {
+    "id": 219,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which NLP capability identifies important people, places, and organizations? Review variation 219.",
+    "answer": "Named entity recognition."
+  },
+  {
+    "id": 220,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which speech capability converts audio into text? Review variation 220.",
+    "answer": "Speech-to-text."
+  },
+  {
+    "id": 221,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What is the input given to a generative AI model called? Review variation 221.",
+    "answer": "A prompt."
+  },
+  {
+    "id": 222,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What is an unsupported but plausible-sounding AI answer called? Review variation 222.",
+    "answer": "A hallucination."
+  },
+  {
+    "id": 223,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What should developers avoid placing directly in source code? Review variation 223.",
+    "answer": "Secrets such as API keys, passwords, and connection strings."
+  },
+  {
+    "id": 224,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Intermediate",
+    "question": "Which Azure identity feature helps apps authenticate without storing credentials? Review variation 224.",
+    "answer": "Managed identity."
+  },
+  {
+    "id": 225,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Intermediate",
+    "question": "Which search approach uses numeric representations of meaning? Review variation 225.",
+    "answer": "Vector search."
+  },
+  {
+    "id": 226,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on making AI usable by people with diverse abilities? Review variation 226.",
+    "answer": "Inclusiveness."
+  },
+  {
+    "id": 227,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on protecting sensitive data? Review variation 227.",
+    "answer": "Privacy and security."
+  },
+  {
+    "id": 228,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on clearly communicating AI capabilities and limits? Review variation 228.",
+    "answer": "Transparency."
+  },
+  {
+    "id": 229,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task predicts categories? Review variation 229.",
+    "answer": "Classification."
+  },
+  {
+    "id": 230,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task predicts numeric values? Review variation 230.",
+    "answer": "Regression."
+  },
+  {
+    "id": 231,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task groups unlabeled examples? Review variation 231.",
+    "answer": "Clustering."
+  },
+  {
+    "id": 232,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which vision capability extracts text from images? Review variation 232.",
+    "answer": "Optical character recognition."
+  },
+  {
+    "id": 233,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which vision capability identifies objects and their locations? Review variation 233.",
+    "answer": "Object detection."
+  },
+  {
+    "id": 234,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which NLP capability identifies important people, places, and organizations? Review variation 234.",
+    "answer": "Named entity recognition."
+  },
+  {
+    "id": 235,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which speech capability converts audio into text? Review variation 235.",
+    "answer": "Speech-to-text."
+  },
+  {
+    "id": 236,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What is the input given to a generative AI model called? Review variation 236.",
+    "answer": "A prompt."
+  },
+  {
+    "id": 237,
+    "exam": "AI-901",
+    "domain": "Generative AI and Microsoft Foundry",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What is an unsupported but plausible-sounding AI answer called? Review variation 237.",
+    "answer": "A hallucination."
+  },
+  {
+    "id": 238,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "What should developers avoid placing directly in source code? Review variation 238.",
+    "answer": "Secrets such as API keys, passwords, and connection strings."
+  },
+  {
+    "id": 239,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Intermediate",
+    "question": "Which Azure identity feature helps apps authenticate without storing credentials? Review variation 239.",
+    "answer": "Managed identity."
+  },
+  {
+    "id": 240,
+    "exam": "AI-901",
+    "domain": "Azure AI Services and App Integration",
+    "category": "Review",
+    "difficulty": "Intermediate",
+    "question": "Which search approach uses numeric representations of meaning? Review variation 240.",
+    "answer": "Vector search."
+  },
+  {
+    "id": 241,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on making AI usable by people with diverse abilities? Review variation 241.",
+    "answer": "Inclusiveness."
+  },
+  {
+    "id": 242,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on protecting sensitive data? Review variation 242.",
+    "answer": "Privacy and security."
+  },
+  {
+    "id": 243,
+    "exam": "AI-901",
+    "domain": "AI Concepts",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which responsible AI principle focuses on clearly communicating AI capabilities and limits? Review variation 243.",
+    "answer": "Transparency."
+  },
+  {
+    "id": 244,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task predicts categories? Review variation 244.",
+    "answer": "Classification."
+  },
+  {
+    "id": 245,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task predicts numeric values? Review variation 245.",
+    "answer": "Regression."
+  },
+  {
+    "id": 246,
+    "exam": "AI-901",
+    "domain": "Machine Learning",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which ML task groups unlabeled examples? Review variation 246.",
+    "answer": "Clustering."
+  },
+  {
+    "id": 247,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which vision capability extracts text from images? Review variation 247.",
+    "answer": "Optical character recognition."
+  },
+  {
+    "id": 248,
+    "exam": "AI-901",
+    "domain": "Computer Vision",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which vision capability identifies objects and their locations? Review variation 248.",
+    "answer": "Object detection."
+  },
+  {
+    "id": 249,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which NLP capability identifies important people, places, and organizations? Review variation 249.",
+    "answer": "Named entity recognition."
+  },
+  {
+    "id": 250,
+    "exam": "AI-901",
+    "domain": "Natural Language and Speech",
+    "category": "Review",
+    "difficulty": "Beginner",
+    "question": "Which speech capability converts audio into text? Review variation 250.",
+    "answer": "Speech-to-text."
+  }
+]

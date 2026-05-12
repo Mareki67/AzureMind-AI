@@ -1,65 +1,150 @@
-import Image from "next/image";
+"use client";
+
+import { useMemo, useState } from "react";
+import flashcards from "../data/flashcards.json";
+import Flashcard from "../components/Flashcard";
+import { getRandomCards, type Flashcard as FlashcardType } from "../lib/randomizer";
+
 
 export default function Home() {
+  const [sessionSize, setSessionSize] = useState(10);
+  const [cards, setCards] = useState<FlashcardType[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [known, setKnown] = useState(0);
+  const [review, setReview] = useState(0);
+  const [started, setStarted] = useState(false);
+
+  const allCards = flashcards as FlashcardType[];
+
+  const currentCard = cards[currentIndex];
+
+  const progress = useMemo(() => {
+    if (!cards.length) return 0;
+    return Math.round(((currentIndex + 1) / cards.length) * 100);
+  }, [currentIndex, cards.length]);
+
+  function startSession() {
+  const randomCards = getRandomCards(allCards, sessionSize);
+    setCards(randomCards);
+    setCurrentIndex(0);
+    setShowAnswer(false);
+    setKnown(0);
+    setReview(0);
+    setStarted(true);
+  }
+
+  function nextCard(result: "known" | "review") {
+    if (result === "known") setKnown((prev) => prev + 1);
+    if (result === "review") setReview((prev) => prev + 1);
+
+    if (currentIndex < cards.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+      setShowAnswer(false);
+    } else {
+      setCurrentIndex((prev) => prev + 1);
+    }
+  }
+
+  const sessionComplete = started && currentIndex >= cards.length;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="min-h-screen bg-slate-950 text-white px-6 py-10">
+      <div className="mx-auto max-w-4xl">
+        <header className="mb-10 text-center">
+          <h1 className="text-4xl font-bold tracking-tight">
+            AzureMind AI
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mt-3 text-slate-300">
+            AI-901 Flashcard Certification Trainer
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        </header>
+
+        {!started && (
+          <section className="rounded-2xl bg-slate-900 p-8 shadow-xl border border-slate-800">
+            <h2 className="text-2xl font-semibold mb-4">
+              Start a New Study Session
+            </h2>
+
+            <p className="text-slate-300 mb-6">
+              Choose how many random flashcards you want to study.
+            </p>
+
+            <div className="flex flex-wrap gap-3 mb-8">
+              {[10, 20, 25, 50].map((size) => (
+                <button
+                  key={size}
+                  onClick={() => setSessionSize(size)}
+                  className={`rounded-xl px-5 py-3 font-medium ${
+                    sessionSize === size
+                      ? "bg-blue-500 text-white"
+                      : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+                  }`}
+                >
+                  {size} Cards
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={startSession}
+              className="w-full rounded-xl bg-blue-600 px-6 py-4 text-lg font-semibold hover:bg-blue-500"
+            >
+              Start Session
+            </button>
+          </section>
+        )}
+
+       {started && !sessionComplete && currentCard && (
+        <Flashcard
+        domain={currentCard.domain}
+        category={currentCard.category}
+        difficulty={currentCard.difficulty}
+        question={currentCard.question}
+        answer={currentCard.answer}
+        showAnswer={showAnswer}
+        onReveal={() => setShowAnswer(true)}
+        onKnown={() => nextCard("known")}
+        onReview={() => nextCard("review")}
+      />
+      )}
+
+        {sessionComplete && (
+          <section className="rounded-2xl bg-slate-900 p-8 shadow-xl border border-slate-800 text-center">
+            <h2 className="text-3xl font-bold mb-4">
+              Session Complete
+            </h2>
+
+            <p className="text-slate-300 mb-8">
+              Here is your study session summary.
+            </p>
+
+            <div className="grid gap-4 sm:grid-cols-3 mb-8">
+              <div className="rounded-xl bg-slate-950 p-5 border border-slate-800">
+                <p className="text-sm text-slate-400">Total Cards</p>
+                <p className="text-3xl font-bold">{cards.length}</p>
+              </div>
+
+              <div className="rounded-xl bg-slate-950 p-5 border border-slate-800">
+                <p className="text-sm text-slate-400">Known</p>
+                <p className="text-3xl font-bold text-emerald-400">{known}</p>
+              </div>
+
+              <div className="rounded-xl bg-slate-950 p-5 border border-slate-800">
+                <p className="text-sm text-slate-400">Review Again</p>
+                <p className="text-3xl font-bold text-amber-400">{review}</p>
+              </div>
+            </div>
+
+            <button
+              onClick={startSession}
+              className="rounded-xl bg-blue-600 px-8 py-4 font-semibold hover:bg-blue-500"
+            >
+              Start New Random Session
+            </button>
+          </section>
+        )}
+      </div>
+    </main>
   );
 }
