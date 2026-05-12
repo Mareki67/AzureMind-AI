@@ -15,6 +15,8 @@ export default function Home() {
   const [review, setReview] = useState(0);
   const [started, setStarted] = useState(false);
   const [selectedDomain, setSelectedDomain] = useState("All");
+  const [missedCards, setMissedCards] = useState<FlashcardType[]>([]);
+  const [reviewMode, setReviewMode] = useState(false);
 
   const allCards = flashcards as FlashcardType[];
 
@@ -40,11 +42,16 @@ export default function Home() {
     setKnown(0);
     setReview(0);
     setStarted(true);
+    setMissedCards([]);
+    setReviewMode(false);
   }
 
   function nextCard(result: "known" | "review") {
     if (result === "known") setKnown((prev) => prev + 1);
-    if (result === "review") setReview((prev) => prev + 1);
+    if (result === "review") {
+  	setReview((prev) => prev + 1);
+ 	setMissedCards((prev) => [...prev, currentCard]);
+	}
 
     if (currentIndex < cards.length - 1) {
       setCurrentIndex((prev) => prev + 1);
@@ -53,6 +60,17 @@ export default function Home() {
       setCurrentIndex((prev) => prev + 1);
     }
   }
+
+  function startMissedReview() {
+     setCards(missedCards);
+     setCurrentIndex(0);
+     setShowAnswer(false);
+     setKnown(0);
+     setReview(0);
+     setReviewMode(true);
+     setStarted(true);
+   }
+
 
   const sessionComplete = started && currentIndex >= cards.length;
 
@@ -140,7 +158,7 @@ export default function Home() {
         {sessionComplete && (
           <section className="rounded-2xl bg-slate-900 p-8 shadow-xl border border-slate-800 text-center">
             <h2 className="text-3xl font-bold mb-4">
-              Session Complete
+              {reviewMode ? "Review Session Complete" : "Session Complete"}
             </h2>
 
             <p className="text-slate-300 mb-8">
@@ -163,6 +181,15 @@ export default function Home() {
                 <p className="text-3xl font-bold text-amber-400">{review}</p>
               </div>
             </div>
+
+	{!reviewMode && missedCards.length > 0 && (
+	  <button
+	    onClick={startMissedReview}
+	    className="mb-4 rounded-xl bg-amber-500 px-8 py-4 font-semibold text-slate-950 hover:bg-amber-400"
+	  >
+	    Review Missed Cards ({missedCards.length})
+	  </button>
+	)}	
 
             <button
               onClick={startSession}
