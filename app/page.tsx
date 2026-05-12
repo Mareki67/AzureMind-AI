@@ -87,6 +87,16 @@ export default function Home() {
     setStarted(true);
   }
 
+  function returnToMainMenu() {
+  setStarted(false);
+  setCards([]);
+  setCurrentIndex(0);
+  setShowAnswer(false);
+  setKnown(0);
+  setReview(0);
+  setReviewMode(false);
+  }
+
   function handleSaveScore() {
     if (!cards.length) return;
 
@@ -249,6 +259,13 @@ export default function Home() {
               >
                 Save Score Locally
               </button>
+
+	      <button
+		  onClick={returnToMainMenu}
+		  className="rounded-xl bg-slate-700 px-8 py-4 font-semibold hover:bg-slate-600"
+		>
+		  Return to Main Menu
+		</button>	
 
               <button
                 onClick={startSession}
