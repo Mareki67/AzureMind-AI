@@ -14,8 +14,16 @@ export default function Home() {
   const [known, setKnown] = useState(0);
   const [review, setReview] = useState(0);
   const [started, setStarted] = useState(false);
+  const [selectedDomain, setSelectedDomain] = useState("All");
 
   const allCards = flashcards as FlashcardType[];
+
+  const domains = ["All", ...Array.from(new Set(allCards.map((card) => card.domain)))];
+
+  const filteredCards =
+  selectedDomain === "All"
+    ? allCards
+    : allCards.filter((card) => card.domain === selectedDomain);
 
   const currentCard = cards[currentIndex];
 
@@ -25,7 +33,7 @@ export default function Home() {
   }, [currentIndex, cards.length]);
 
   function startSession() {
-  const randomCards = getRandomCards(allCards, sessionSize);
+  const randomCards = getRandomCards(filteredCards, sessionSize);
     setCards(randomCards);
     setCurrentIndex(0);
     setShowAnswer(false);
@@ -67,8 +75,28 @@ export default function Home() {
             </h2>
 
             <p className="text-slate-300 mb-6">
-              Choose how many random flashcards you want to study.
+              Choose a domain and the number of random flashcards you want to study.
             </p>
+	
+	<div className="mb-6">
+	  <label className="mb-2 block text-sm font-medium text-slate-300">
+	    Filter by Domain
+	  </label>
+
+	  <select
+	    value={selectedDomain}
+	    onChange={(e) => setSelectedDomain(e.target.value)}
+	    className="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-white"
+	  >
+	    {domains.map((domain) => (
+	      <option key={domain} value={domain}>
+	    {domain}
+	      </option>
+	    ))}
+	  </select>
+	</div>
+
+
 
             <div className="flex flex-wrap gap-3 mb-8">
               {[10, 20, 25, 50].map((size) => (
